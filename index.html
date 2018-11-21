@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>мандри.ua</title>
+  </head>
+  <body>
+    <div class="menu">
+        <div class="row">
+            <div class="w-100">
+                <button class="btn btn-info" onclick="loadPage('home.html')"> Головна </button>
+                <button class="btn btn-info" onclick="loadPage('news.html')"> Новини </button>
+                <button class="btn btn-info" onclick="loadPage('text.html')"> Статті </button>
+                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Фото </button>                
+                <button class="btn btn-info" onclick="loadPage('contact.html')"> Контакти </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" onclick="loadPage('city/gallery/kyivgallery.html')">Київ</a>
+                <a class="dropdown-item" onclick="loadPage('city/gallery/dniprogallery.html')">Дніпро</a>
+                <a class="dropdown-item" onclick="loadPage('city/gallery/kharkivgallery.html')">Харків</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Рівне</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Одеса</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Луцьк</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Кам'янець-Подільський</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Карпати</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Чернівці</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Тернопіль</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Львів</a>
+                <a class="dropdown-item" onclick="loadPage('gallery.html')">Кропивницький</a>
+            </div>
+            </div>
+        </div>
+    </div> 
+    <div class="content"> </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>      
+   </body>
+</html>

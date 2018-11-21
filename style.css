@@ -1,0 +1,160 @@
+.fonindex {
+    background: url('image/img1.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+.fonindex span {
+    color:rgb(31, 6, 168) ;
+    font-size: 6vw;
+    background: rgba(255, 255, 255, 0.72);
+    background-position: 50%;
+    position: absolute;
+    top: calc(30% - 5px);
+    left: calc(30% - 5px);
+    padding: 40px;
+    width: 40%;
+    text-align: center;
+    font-weight: 700;
+    font-family: Cambria;
+    border-top: 8px blue solid;
+    border-bottom: 8px blue solid;
+}
+.fonindex p {
+    color:rgb(0, 0, 0);
+    font-size: 3vw;
+    background: rgba(255, 255, 255, 0.72);
+    background-position: center;
+    position: absolute;
+    top: calc(70% - 5px);
+    left: calc(25% - 5px);
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    font-family: Cambria;
+    font-style: italic;
+}
+.fonindex img {
+    position: absolute;
+    top: calc(65% - 5px);
+    left: calc(20% - 16px);
+    width: 15vw;
+    transform: rotate(-30deg);
+} 
+.nav-link {
+    color: #fff !important;
+}
+.menu {
+    position: relative;
+    z-index: 2;
+    padding: 0 30px;
+}
+.btn {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Cambria; 
+    background: rgba(22, 22, 243, 0.815);
+    color: white;
+    border: none;
+}   
+.dropdown-item {
+    font-family: Cambria;
+    font-size: 1.5vw;
+    background-color: rgba(249, 249, 250, 0.815);
+}
+.post img {
+    width: 100%;
+    height: 90%;
+    border-top-right-radius: 40px;
+    border-color: whitesmoke;
+    border-style: double;
+    border-width: 10px;
+}
+.post span {
+    color:white;
+    font-size: 2vw;
+    background: rgba(5, 5, 5, 0.74);
+    position: absolute;
+    top: calc(60% - 5px);
+    padding: 5px;
+    width: 75%;
+    text-align: center;
+    font-weight: 200;
+    font-family: Cambria;
+}
+.container {
+    padding-top: 80px;
+}
+.row {
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.fontext {
+    background: url('image/city.png') repeat-x 0 100% fixed,
+    linear-gradient(to top, #c81edf8f, #18c6d39a) fixed;
+    margin: -87px;
+} 
+.fonkyiv {
+    background: url('image/city.png') repeat-x 0 100% fixed,
+    linear-gradient(to top, #c81edf8f, #18c6d39a) fixed;
+    margin: -87px;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    font-family: Cambria;
+    text-decoration-line: initial;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.text {
+    background-position-x: 40px;
+    text-align: justify;
+    margin: 10px;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 530;
+    font-size: 21px;
+    background-color:  rgba(255, 255, 255, 0.924);
+    color: black;
+    border-radius: 40px;
+    padding: 0 60px;
+    padding-top: 20px;
+}   
+.mapkyiv {
+    justify-content: center;
+    display:flex;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.fonnews {
+    background: url('image/city.png') repeat-x 0 100% fixed,
+    linear-gradient(to top, #c81edf8f, #18c6d39a) fixed;
+    margin: -87px;
+}
+.inst1 img {
+    height: 200px;
+}
+.inst2 img {
+    height: 200px;
+}
+.post1 p {
+    text-indent: 1.5em; 
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 530;
+    font-size: 21px;
+    background-color:  rgba(255, 255, 255, 0.767);
+    color: black;
+    border-radius: 40px;
+    padding: 0 60px;
+    padding-top: 20px;
+}
